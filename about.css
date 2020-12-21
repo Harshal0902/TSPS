@@ -106,6 +106,7 @@ body {
   top: 1028.49px;
   background: rgba(62, 139, 255, 0.1);
   border-radius: 50%;
+  z-index: -1;
 }
 
 .abellipse2 {
