@@ -21,5 +21,5 @@ https://tsps.netlify.app/
 ![3](https://user-images.githubusercontent.com/64153988/103417435-b355bd00-4bb0-11eb-8222-a8d7f5d6885f.png)
 ![4](https://user-images.githubusercontent.com/64153988/103417428-afc23600-4bb0-11eb-918f-42a4cc7a80fd.png)
 ![5](https://user-images.githubusercontent.com/64153988/103417430-b0f36300-4bb0-11eb-861f-43526ba2e02a.png)
-![6](https://user-images.githubusercontent.com/64153988/103417431-b18bf980-4bb0-11eb-9285-2a5257d85f9c.png)
-![7](https://user-images.githubusercontent.com/64153988/103417432-b2249000-4bb0-11eb-82d4-492129dd3995.png)
+![F](https://user-images.githubusercontent.com/64153988/103437104-2f9bdf00-4c49-11eb-82a1-8fb0b86dfa05.png)
+![G](https://user-images.githubusercontent.com/64153988/103437103-2dd21b80-4c49-11eb-833a-2f19612f5c24.png)
