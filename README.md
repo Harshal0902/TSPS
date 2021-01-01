@@ -2,7 +2,7 @@
 Complete site for The Six PM Show
 
 ## Demo link
-https://tsps1.netlify.app/
+https://tsps.netlify.app/
 
 ## Extra Features
 - Twpewriting effect
@@ -10,7 +10,7 @@ https://tsps1.netlify.app/
 - Custom scroll bar
 
 ## Issue
-- Our partner section is not visible in responsive mode
+- Our partner section is not visible in responsive mode (Solved)
 
 ## Future Scope
 - Building the site from React Js
