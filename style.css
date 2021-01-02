@@ -1053,7 +1053,7 @@ footer ul {
     width: 100vw;
     height: 736px;
     align-items: center;
-    top: 3984;
+    top: 2940px;
     background: #1c6b97;
   }
   .OurPartners .PartnerTitle {
@@ -1070,20 +1070,24 @@ footer ul {
     color: #ffffff;
   }
   .OurPartners .PartnerLine {
+    color: rgba(0, 0, 0, 0.33);
     border: 5px solid rgba(0, 0, 0, 0.33);
     top: 35px;
   }
   .cards {
-    padding: auto -20px;
+    padding: auto 50px;
   }
   .cards-list {
     flex-direction: column;
+  }
+  .card_images{
+    padding-bottom: 80px;
   }
   
 
   /* Footer */
   #footer {
-    margin-top: 615px;
+    margin-top: 1028px;
     margin-bottom: -25px;
     background: #2e2f36;
   }
