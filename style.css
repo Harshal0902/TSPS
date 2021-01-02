@@ -7,6 +7,8 @@
   box-sizing: border-box;
   /* overflow: hidden; */
 }
+
+/* Nav Bar */
 nav {
   background: #282b33;
   height: 81px;
@@ -19,7 +21,6 @@ label.logo {
   padding: 0 100px;
   font-weight: bold;
 }
-
 nav ul {
   float: right;
   margin-right: 20px;
@@ -53,6 +54,7 @@ nav ul li a:hover {
   display: none;
 }
 
+/* Scroll to top */
 #back-to-top-btn {
   display: none;
   position: fixed;
@@ -73,19 +75,16 @@ nav ul li a:hover {
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
 }
-
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
   background-color: #03f718;
   color: #fff;
 }
-
 .btnEntrance {
   animation-duration: 0.5s;
   animation-fill-mode: both;
   animation-name: btnEntrance;
 }
-
 .btnExit {
   animation-duration: 0.25s;
   animation-fill-mode: both;
@@ -104,7 +103,6 @@ nav ul li a:hover {
 }
 
 /* Home */
-
 .home {
   position: absolute;
   width: 100%;
@@ -148,8 +146,8 @@ nav ul li a:hover {
   color: #ffffff;
   font-weight: bolder;
 }
-/* About Us */
 
+/* About Us */
 .AboutUs {
   position: absolute;
   width: 100%;
@@ -158,7 +156,6 @@ nav ul li a:hover {
   top: 716px;
   background: #2e2f36;
 }
-
 .aboutbg {
   position: absolute;
   width: 588.59px;
@@ -170,7 +167,6 @@ nav ul li a:hover {
   line-height: 169px;
   color: rgba(255, 255, 255, 0.05);
 }
-
 .aboutfr {
   position: absolute;
   width: 196.2px;
@@ -221,7 +217,6 @@ nav ul li a:hover {
   top: 225px;
   z-index: 2;
 }
-
 .abtext {
   position: absolute;
   width: 415px;
@@ -267,6 +262,7 @@ nav ul li a:hover {
   z-index: 1;
 }
 
+/* Event page */
 .Event {
   position: absolute;
   width: 100%;
@@ -423,6 +419,7 @@ nav ul li a:hover {
   border: 3px solid #eeeeee;
 }
 
+/* Podcast page */
 .Podcast {
   position: absolute;
   width: 100%;
@@ -544,6 +541,7 @@ nav ul li a:hover {
   color: #ffffff;
 }
 
+/* Our Partners */
 .OurPartners {
   position: absolute;
   width: 100%;
@@ -575,17 +573,15 @@ nav ul li a:hover {
   border: 8px solid rgba(0, 0, 0, 0.33);
 }
 .cards {
-  z-index: 0;
   width: 100%;
   display: flex;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
   background: #1c6b97;
   justify-content: space-around;
   flex-wrap: wrap;
   padding-top: 250px;
 }
-
 .cards .card_title {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
@@ -598,60 +594,55 @@ nav ul li a:hover {
   padding-bottom: 40px;
 }
 
-/* Contact Section */
+/* Footer */
 footer {
   position: absolute;
   width: 100%;
-  height: 250px;
+  height: 230px;
   left: 0px;
   top: 3453px;
   background: #2e2f36;
 }
-
-.QuickLinks {
+.widget-title h5 {
   position: absolute;
-  color: #ffffff;
+  width: 219px;
+  height: 46.99px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
 }
-.context-dark,
-.bg-gray-dark,
-.bg-primary {
-  color: rgba(255, 255, 255, 0.8);
+.widget a {
+  font-weight: 150;
+  font-size: 18px;
+  line-height: 21px;
 }
-.footer-classic a:hover {
-  color: #ffffff;
+.widget h6 {
+  padding-top: 8px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
 }
-.footer-classic a,
-.footer-classic a:focus,
-.footer-classic a:active {
-  list-style-type: none;
-  text-decoration: none;
-  color: #ffffff;
+/* Main Footer */
+footer .main-footer {
+  padding: 20px 0;
 }
-.nav-list li {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.nav-list li a:hover:before {
-  margin-left: 0;
-  opacity: 1;
-  visibility: visible;
-}
-ul,
-ol {
+footer ul {
+  padding-left: 0;
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
-.copyright {
+/* Copy Right Footer */
+.footer-copyright {
   background: #ffffff;
+}
+.footer-copyright p {
   color: #2e2f36;
-  font-size: 15px;
-  width: 100%;
   margin-bottom: 0px;
+  font-size: 15px;
 }
 
 /* Custom Scroll bar */
-
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -680,9 +671,7 @@ ol {
   }
 }
 @media (max-width: 750px) {
-  /* *{
-        max-width: 100%;
-    } */
+  /* Nav Bar */
   .checkbtn {
     display: block;
   }
@@ -709,6 +698,8 @@ ol {
     left: 0;
   }
 
+
+  /* Home page */
   .home {
     height: 736px;
     width: 100%;
@@ -722,6 +713,8 @@ ol {
     width: 305px;
   }
 
+  
+  /* About Page */
   .AboutUs {
     position: absolute;
     width: 100vw;
@@ -761,7 +754,6 @@ ol {
     position: absolute;
     width: 220px;
     left: 150px;
-    /* right: 13px; */
     top: 25px;
     border: 2px solid #ffffff;
   }
@@ -809,6 +801,9 @@ ol {
   .abellipse2 {
     display: none;
   }
+
+
+  /* Event Page */
   .Event {
     position: absolute;
     width: 100vw;
@@ -908,7 +903,6 @@ ol {
     background: #ffffff;
     border-radius: 10px;
   }
-
   .KnowMore {
     left: 30%;
     top: 658px;
@@ -922,7 +916,6 @@ ol {
     position: absolute;
     width: 120px;
     height: 34.12px;
-    /* right: 26px; */
     background: #2e2f36;
     border-radius: 20px;
   }
@@ -931,6 +924,8 @@ ol {
   .evellipse2 {
     display: none;
   }
+
+  /* Podcast Page */
   .Podcast {
     position: absolute;
     width: 100vw;
@@ -1050,6 +1045,9 @@ ol {
     background: #1c6b97;
     border-radius: 20px;
   }
+
+
+  /* Our partner */
   .OurPartners {
     position: absolute;
     width: 100vw;
@@ -1072,8 +1070,8 @@ ol {
     color: #ffffff;
   }
   .OurPartners .PartnerLine {
-    border: 0.2px solid rgba(0, 0, 0, 0.33);
-    top: 5px;
+    border: 5px solid rgba(0, 0, 0, 0.33);
+    top: 35px;
   }
   .cards {
     padding: auto -20px;
@@ -1081,16 +1079,23 @@ ol {
   .cards-list {
     flex-direction: column;
   }
-  footer {
-    top: 1400px;
-    width: 750px;
+  
+
+  /* Footer */
+  #footer {
+    margin-top: 615px;
+    margin-bottom: -25px;
+    background: #2e2f36;
   }
-  .container {
-    width: 100%;
+  .widget-title {
+    padding-top: 20px;
   }
-  .section {
-    position: absolute;
-    top: 4070px;
-    height: 670px;
+  .footer-copyright {
+    background: #ffffff;
+  }
+  .footer-copyright p {
+    color: #2e2f36;
+    font-size: 15px;
+    padding-bottom: 15px;
   }
 }
