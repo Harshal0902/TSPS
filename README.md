@@ -14,6 +14,7 @@ https://tsps.netlify.app/
 
 ## Future Scope
 - Building the site from React Js
+- Add particle effect's to the site
 
 ## Some glimps of the site
 ![1](https://user-images.githubusercontent.com/64153988/103417433-b2249000-4bb0-11eb-96a6-b24f61135304.png)
