@@ -1,3 +1,11 @@
+// Responsive nav bar item
+$(document).ready(function () {
+    $('.btn').click(function () {
+        $('.items').toggleClass("show");
+        $('ul li').toggleClass("hide");
+    });
+});
+
 // Scroll to top button
 const backToTopButton = document.querySelector("#back-to-top-btn");
 
