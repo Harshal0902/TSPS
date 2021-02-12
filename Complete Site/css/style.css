@@ -11,7 +11,15 @@
 /* Nav Bar */
 nav {
   background: #282b33;
-  padding: 1px 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 13px;
+  padding-bottom: 1px;
+  position: fixed;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
 }
 nav ul {
   list-style: none;
@@ -87,13 +95,13 @@ nav ul li.btn.hide i:before {
   font-size: 26px;
   width: 50px;
   height: 50px;
-  background-color: #fff;
-  color: red;
+  background-color: #FFFFFF;
+  color: #004AAD;
   cursor: pointer;
   outline: none;
   opacity: 0.5;
   z-index: 3;
-  border: 3px solid red;
+  border: 3px solid #004AAD;
   border-radius: 50%;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
@@ -101,8 +109,8 @@ nav ul li.btn.hide i:before {
 }
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
-  background-color: #03f718;
-  color: #fff;
+  background-color: #A6A6A6;
+  color: #004AAD;
 }
 .btnEntrance {
   animation-duration: 0.5s;
@@ -133,6 +141,7 @@ nav ul li.btn.hide i:before {
   height: 639px;
   background: #1c6a97;
   align-items: center;
+  margin-top: 77px;
 }
 .home img {
   display: block;
